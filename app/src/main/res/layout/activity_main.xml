@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image"
+    tools:context=".View.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="380dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="70dp"
+            android:background="@color/transparan"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:id="@+id/relativeLayout">
+
+            <LinearLayout
+                android:id="@+id/klikdaftar"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130sp"
+                android:padding="15dp"
+                android:background="@drawable/bg_klikdaftar">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/icondaftar"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_daftar"
+                        android:textStyle="italic"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"/>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_chevron" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/klikInformasi"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="240sp"
+                android:padding="15dp"
+                android:background="@drawable/bg_klikinfor">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/iconinformasi"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Informasi"
+                        android:textStyle="italic"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"/>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/ic_chevron" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="@bool/default_circle_indicator_centered"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/logo"
+        android:elevation="4dp">
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

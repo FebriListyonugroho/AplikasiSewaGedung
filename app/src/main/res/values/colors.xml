@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#6633FF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#303F9F</color>
+    <color name="backgroundcolor">#a5dfe5</color>
+
+    <color name="lightgray">#ededed</color>
+    <color name="biru">#0083cb</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00944d</color>
+    <color name="merah">#fe104d</color>
+
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="ungu">#E040FB</color>
+    <color name="btn_daftar">#4CAF50</color>
+    <color name="txtTanggal">#4CAF50</color>
+    <color name="btn_batal">#fe104d</color>
+    <color name="putih">#ffff</color>
+    <color name="transparan">#20000000</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

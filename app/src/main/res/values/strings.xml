@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Gedung Wahana Graha</string>
+
+    <string name="header">Isi Data</string>
+    <string name="nama">Nama</string>
+    <string name="tlp">Telepon</string>
+    <string name="alamat">Alamat</string>
+    <string-array name="sesi">
+        <item>Pagi</item>
+        <item>Siang</item>
+    </string-array>
+    <string name="btn_daftar">Daftar Sekarang</string>
+    <string name="btn_batal">Batal</string>
+    <string name="tgl">YYYY/MM/DD</string>
+    <string name="header_sesi">Sesi</string>
+    <string name="header_tgl">Tanggal</string>
+    <string name="label_daftar">Form Daftar</string>
+    <string name="tanggal">Tanggal</string>
+
+    ///String Layout Menu
+    <string name="contact">kontak</string>
+    <string name="keluar">keluar</string>
+    <string name="Informasi">Cek Informasi</string>
+</resources>
